@@ -192,3 +192,7 @@ body {
 }
 
 /* Page 3 */
+.clients {
+    display: grid;
+    grid-template: repeat(3, 120px) / repeat(4, 25%);
+}
